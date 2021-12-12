@@ -433,7 +433,7 @@ module.exports = function (/**String*/ input, /** object */ options) {
             const isStat = "object" === typeof attr && attr instanceof filetools.fs.Stats;
 
             // last modification time from file stats
-            if (isStat) {
+            if (attr && attr.mtime) {
                 entry.header.time = attr.mtime;
             }
 
