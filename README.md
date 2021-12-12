@@ -2,7 +2,7 @@
 
 ADM-ZIP is a pure JavaScript implementation for zip data compression for [NodeJS](https://nodejs.org/).
 
-# Fork of ADM-ZIP
+## Fork of ADM-ZIP
 
 This version has attr.mtime, like so: 
 
@@ -11,7 +11,7 @@ zip.addFile("test.txt", Buffer.from(content, "utf8"), "entry comment goes here",
 ```
 
 
-# Installation
+## Installation
 
 With [npm](https://www.npmjs.com/) do:
 
